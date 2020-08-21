@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {setPost} from "../utils";
+import {setPost} from "../../utils";
 
 const PostCreate = () => {
   const [title, setTitle] = useState("");
